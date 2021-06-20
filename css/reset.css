@@ -1,0 +1,29 @@
+/*
+!to reset all the default value of HTML
+!do not change any thing
+*/
+
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'CodeNext-ExtraBold';
+    background: #000;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+button {
+    outline: none;
+}

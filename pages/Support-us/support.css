@@ -1,0 +1,103 @@
+/**some reset codes*/
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('../../data/background-projects.jpg');
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(1em);
+    font-family: "CodeNext-ExtraBold";
+}
+a {
+    text-decoration: none;
+}
+/**------*/
+
+/**All styles codes*/
+.back {
+    width: 15rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1em;
+    left: -1em;
+    color: var(--text-color);
+    cursor: pointer;
+    z-index: 99;
+}
+.back img {
+    position: relative;
+    left: 5em;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.back:hover > img {
+    opacity: 1;
+    left: 0;
+}
+.support-container {
+    width: 40%;
+    height: 70%;
+    background: linear-gradient(45deg, var(--main-color), var(--second-color));
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 2.5em;
+}
+h2.title {
+    text-align: center;
+    font-size: 2.5em;
+    color: var(--text-color);
+    position: relative;
+    top: 5%;
+}
+.paypal {
+    width: 100%;
+    height: 7rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+}
+.paypal img {
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.paypal img:hover {
+    transform: scale(1.2);
+}
+.social-media {
+    width: 100%;
+    height: 7rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.social-media img {
+    padding: 1em;
+    transition: all 0.3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+.social-media img:hover {
+    transform: translateY(-0.8em);
+}
+/**--------------*/

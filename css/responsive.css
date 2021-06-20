@@ -1,0 +1,250 @@
+/*?---- Desktop Screen ----*/
+@media only screen and (max-width: 1400px) {
+    .desc-container {
+        width: 80%;
+    }
+    .projects {
+        width: 70%;
+    }
+    .support-container {
+        width: 50%;
+    }
+}
+/*?--------*/
+
+
+/*?---- Mobile Screen ----*/
+@media only screen and (max-width: 900px) {
+    .creator-img {
+        left: -15rem;
+    }
+    .desc-all {
+        right: -15rem;
+    }
+    nav.list li {
+        font-size: 1em;
+    }
+    .project-box {
+        width: 100%;
+    }
+    .text-container p {
+        font-size: 1em;
+    }
+    .text-container h2 {
+        font-size: 1.4em;
+    }
+    .websites .text-container p {
+        position: relative;
+        top: 2em;
+        font-size: 1em;
+    }
+    .contact-container {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .title h1 {
+        font-size: 3rem;
+    }
+    .nav-bar {
+        height: 7rem;
+    }
+    .desc-container {
+        flex-direction: column;
+        width: 80%;
+    }
+    .desc-all {
+        width: 100%;
+        right: -10rem;
+    }
+    .blob {
+        transform: scale(1.7);
+    }
+    .creator-img {
+        left: -10rem;
+    }
+    .moon {
+        height: 43%;
+        left: -2%;
+        z-index: 999;
+    }
+    .menu a:hover::after {
+        width: 15%;
+    }
+    .menu a:hover::before {
+        width: 15%;
+    }
+    .nav-bar.anim {
+        background: #D63621;
+        border-bottom: none;
+        width: 100%;
+        border-radius: 0;
+    }
+    .rocket {
+        position: absolute;
+        width: 5%;
+    }
+    .list {
+        background: #EE5A24;
+        border-radius: 20px;
+        box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.66);
+    }
+    .projects {
+        width: 100%;
+        grid-template-columns: 100%;
+        height: 80rem;
+        overflow: visible;
+    }
+    .background-projects {
+        height: 100rem;
+    }
+    .projects-content {
+        top: 20rem;
+    }
+    .show-more {
+        bottom: -5rem;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin: unset;
+    }
+    .apps .project-box {
+        height: 20rem;
+    }
+    .all .project-box:first-child {
+        height: 110%;
+    }
+    .apps.projects {
+        height: 53rem;
+        top: 15rem;
+    }
+    nav.list li {
+        font-size: 0.8em;
+        margin: 0.5em 0em;
+    }
+    .apps .text-container p {
+        position: relative;
+        top: 5em;
+        font-size: 1em;
+    }
+    .skill-name {
+        text-align: center;
+    }
+    #skills {
+        width: 100%;
+        height: 80rem;
+        margin-top: 41.4rem;
+    }
+    .moon1 {
+        top: -10%;
+        height: 25%;
+    }
+    .skills-moon {
+        width: 120%;
+    }
+    .copyright {
+        flex-direction: column;
+    }
+    .copyright-name {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+    .contact-container {
+        width: 70%;
+        height: 80%;
+    }
+    .more-container {
+        width: 70%;
+        height: 80%;
+    }
+    .support-container {
+        width: 80%;
+        height: 60%;
+    }
+    .close {
+        top: -2em;
+        right: -3em;
+    }
+    .social-media img {
+        padding: 0.1em;
+    }
+    .email-text {
+        font-size: 1em;
+    }
+    h2.title {
+        top: 10%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .desc-text {
+        width: 100%;
+    }
+    .projects-list {
+        width: 80%;
+    }
+    nav.list {
+        width: 100%;
+    }
+    .skills-set-container {
+        width: 80%;
+    }
+    .support[data-scroll="in"] {
+        top: 30%;
+    }
+    .moon1 {
+        left: 0;
+        height: 20%;
+        top: -8%;
+    }
+    .contact-container {
+        width: 80%;
+        height: 80%;
+    }
+    .moon {
+        top: 73%;
+        left: 0;
+    }
+    #home {
+        height: 100vh;
+    }
+    .section2 {
+        top: -3.5rem;
+    }
+    #projects {
+        position: relative;
+        top: -3.5rem;
+    }
+    #skills {
+        margin-top: 37.69rem;
+    }
+    .support img {
+        width: 5em;
+    }
+    .support h2 {
+        font-size: 1.2em;
+    }
+    .copyright {
+        margin-bottom: 3em;
+    }
+    .desc-all {
+        height: 70%;
+    }
+    .menu a {
+        font-size: 1.7em;
+    }
+    .menu a:hover {
+        letter-spacing: 5px;
+    }
+    .creator-img {
+        width: 50%;
+    }
+    .back img {
+        width: 2em;
+    }
+    .back {
+        font-size: 0.7em;
+    }
+}
+/*?--------*/
